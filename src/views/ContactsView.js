@@ -33,7 +33,6 @@ class Contacts extends Component {
 
 const mapState = (state) => {
   const items = selectAllContacts(state);
-
   return {
     items: selectFilteredItems(state),
     originalItems: items,
