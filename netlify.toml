@@ -1,4 +1,4 @@
-git[build]
+[build]
   publish="build"
 
 [[redirects]]
